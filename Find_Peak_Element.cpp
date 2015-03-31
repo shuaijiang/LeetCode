@@ -1,5 +1,5 @@
 /*
-*Compare Version Numbers
+*Find Peak Element
 *Author: shuaijiang
 *Email: zhaoshuaijiang8@gmail.com
 */
