@@ -1,5 +1,5 @@
 /*
-*Same Tree
+*Symmetric Tree
 *Author: shuaijiang
 *Email: zhaoshuaijiang8@gmail.com
 */
@@ -30,6 +30,8 @@ public:
     	if(p==NULL && q!= NULL)
     		return false;
     	if(p!=NULL && q==NULL)
+    		return false;
+    	if(p->val != q->val)
     		return false;
     	if(isSym(p->left,q->right) && isSym(p->right,q->left)){
     		return true;
