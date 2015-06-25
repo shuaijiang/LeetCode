@@ -21,7 +21,7 @@ public:
         	if(myMap.find(nums[count])==myMap.end())
         		myMap[nums[count]] = count;
         	else{
-        		if(count - myMap[nums[count]] <= k);
+        		if(count - myMap[nums[count]] <= k)
         			return true;
         		else
         			myMap[nums[count]] = count;
