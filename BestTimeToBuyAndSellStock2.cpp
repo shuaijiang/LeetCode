@@ -1,4 +1,4 @@
-/*Maximum Subarray 
+/*Best Time to Buy and Sell Stock II
 *Author: shuaijiang
 *Email: zhaoshuaijiang8@gmail.com
 */
