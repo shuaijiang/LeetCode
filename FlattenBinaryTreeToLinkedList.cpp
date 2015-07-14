@@ -1,5 +1,5 @@
 /*
-*
+*Flatten Binary Tree to Linked List 
 *Author: shuaijiang
 *Email: zhaoshuaijiang8@gmail.com
 */
