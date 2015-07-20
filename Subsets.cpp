@@ -29,32 +29,3 @@ public:
     }
 };
 
-class Solution {
-public:
-	vector<vector<int>> result;
-    vector<vector<int>> subsets(vector<int>& nums) {
-        if(nums.size()<=0)
-        	return result;
-		getSub(nums, 0);
-		return result;
-    }
-    void getSub(vector<int>& nums, int start){
-    	int size = nums.size();
-    	if(start >= size){
-    		vector<int> tmp;
-    		result.push_back(tmp);
-    		return;
-    	}
-    	else{
-    		int num = nums[start];
-    		getSub(nums, start+1);
-    		for(int i=0;i<result.size();i++){
-    			vector<int> res = result[i];
-    			res.push_back(num);
-    			//sort(res.begin(),res.end());
-    			result.push_back(res);
-    		}
-    	}
-		return; 
-    }
-};
