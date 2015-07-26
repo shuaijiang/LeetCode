@@ -1,5 +1,5 @@
 /*
-*4Sum
+*String To Integer
 *Author: shuaijiang
 *Email: zhaoshuaijiang8@gmail.com
 */
